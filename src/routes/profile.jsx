@@ -28,7 +28,7 @@ function Profile() {
         setValueName1(sessionStorage.getItem('custType'))
         setValueName2(sessionStorage.getItem('existingCust'))
         setValueName3(sessionStorage.getItem('custLocation'))
-        setValueName4(sessionStorage.getItem('spectrumChannel'))
+        setValueName4(sessionStorage.getItem('specialChannel'))
         setValueName6(sessionStorage.getItem('offerElgibility'))
         setValueName10(sessionStorage.getItem('customerExperienceMode'))
     };
@@ -37,7 +37,7 @@ function Profile() {
         sessionStorage.setItem('custType', valueName1)
         sessionStorage.setItem('existingCust', valueName2)
         sessionStorage.setItem('custLocation', valueName3)
-        sessionStorage.setItem('spectrumChannel', valueName4)
+        sessionStorage.setItem('specialChannel', valueName4)
         sessionStorage.setItem('offerElgibility', valueName6)
         sessionStorage.setItem('customerExperienceMode', valueName10)
     }
